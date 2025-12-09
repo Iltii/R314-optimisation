@@ -1229,3 +1229,10 @@ a{color:var(--fg);text-decoration:none;opacity:.9}a:hover{opacity:1}
 .redundant-1199{padding:4px;margin:2px;box-shadow:0 0 2px rgba(0,0,0,.2)}
 @media (max-width:900px){.features-grid{grid-template-columns:repeat(2,1fr)}.gallery .grid{grid-template-columns:repeat(2,1fr)}}
 @media (max-width:560px){.features-grid{grid-template-columns:1fr}.gallery .grid{grid-template-columns:1fr}}
+/* À ajouter à la fin de styles.css */
+.image-wrapper img {
+  max-height: 80vh;      /* L'image ne dépassera jamais 80% de la hauteur de l'écran */
+  width: auto;           /* La largeur s'adapte pour ne pas déformer l'image */
+  display: block;        /* Permet de bien la positionner */
+  margin: 0 auto;        /* Centre l'image horizontalement */
+}
